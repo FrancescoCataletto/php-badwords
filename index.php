@@ -15,6 +15,7 @@ $text = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, tempor
     <title>Badwords php</title>
 </head>
 <body>
-    <h1><?php echo $text ?></h1>
+    <h3><?php echo $text ?></h3>
+    <p>Il paragrafo è lungo <?php echo strlen($text) ?> caratteri </p>
 </body>
 </html>
